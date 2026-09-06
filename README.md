@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # PyCodeAgent
 
 PyCodeAgent is a Python-based agentic AI coding assistant that uses LLM function calling to interact with a local codebase. The agent can inspect project structures, read and modify files, execute Python programs, analyse execution results, and iteratively work toward completing coding tasks.
