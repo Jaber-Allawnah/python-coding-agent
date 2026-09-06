@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PyCodeAgent
 
 PyCodeAgent is a Python-based agentic AI coding assistant that uses LLM function calling to interact with a local codebase. The agent can inspect project structures, read and modify files, execute Python programs, analyse execution results, and iteratively work toward completing coding tasks.
@@ -190,3 +191,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Acknowledgements
 
 This project was developed while studying agentic AI and coding-agent concepts through the Boot.dev curriculum. The implementation was extended and organised as a portfolio project to demonstrate practical understanding of LLM tool calling, controlled code execution, and iterative agent workflows.
+
