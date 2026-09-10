@@ -27,7 +27,7 @@ STDOUT: {output.stdout}
 STDERR: {output.stderr}
 """
         if output.returncode != 0:
-            return f"Process exited with code {output.returncode}"
+            return final_string + f"\nProcess exited with code {output.returncode}"
 
         if output.stdout == "" and output.stderr == "":
             return "No output produced"
