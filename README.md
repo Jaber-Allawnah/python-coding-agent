@@ -13,8 +13,7 @@ The project was built to explore the core concepts behind AI coding agents, incl
 - **LLM function calling** — Exposes local Python functions to the language model through structured tool schemas.
 - **Dynamic tool dispatch** — Maps LLM tool requests to the appropriate Python functions at runtime.
 - **Iterative agent loop** — Allows the model to call multiple tools, inspect their results, and continue reasoning until it produces a final response.
-- **Filesystem sandboxing** — Restricts file operations and code execution to a designated working directory.
-- **Verbose CLI mode** — Displays tool calls, tool results, and token usage for debugging and inspection.
+- **Filesystem sandboxing** — Restricts file operations and code execution to a designated working directory, currently fixed in code (`examples/calculator`). Making this configurable at runtime is a planned improvement (see Future Improvements).- **Verbose CLI mode** — Displays tool calls, tool results, and token usage for debugging and inspection.
 - **Iteration limit** — Prevents uncontrolled infinite agent loops.
 
 ## How It Works
